@@ -1,1 +1,1 @@
-console.log("ola mundo")
+console.log("Página carregada com sucesso!");

@@ -1,5 +1,5 @@
 * {
-    /* seletor universal */
+    /*Seletor Universal*/
     color: black;
 }
 
@@ -29,33 +29,33 @@ p {
 }
 
 /* Combinações de Seletores */
-/* elemento com clase */
+/* elemento com classe */
 p.negrito {
     font-weight: bold;
 }
 
 /* elementos descendentes */
-p span{
+p span {
     font-style: italic;
 }
 
 /* elementos vizinhos */
 p+h3,
-h2{
-    font-size: 2em;
+h2 {
+    font-size: 1.5em;
 }
 
 /* elementos filhos diretos */
-ul>li{
-    background-color: rgba(255, 0, 0, 0.555)
+ul>li {
+    background-color: rgba(255, 0, 0, 0.555);
 }
 
-/* elementos viinhos posteriores*/
-p+h3~h3{
+/* elementos vizinhos posteriores */
+p+h3~h3 {
     font-size: 12px;
-    color:blue;
+    color: blue;
 }
 
-a:hover{
+a:hover {
     color: #003366;
 }
