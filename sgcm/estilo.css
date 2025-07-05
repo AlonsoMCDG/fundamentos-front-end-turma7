@@ -1,0 +1,124 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+/* Cabeçalho */
+div#topo {
+    display: flex;
+    background: linear-gradient(#003366, #006699);
+    color: white;
+    height: 75px;
+}
+
+div#topo p {
+    font-size: 2em;
+}
+
+/* Navegação */
+ul {
+    padding: 0px;
+}
+
+ul li a {
+    padding: 10px;
+}
+
+ul,
+ul li a {
+    display: flex;
+    list-style-type: none;
+    background-color: #383838;
+    color: white;
+    gap: 10px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+ul li a:hover {
+    background-color: #c0c0c0;
+    color: #383838
+}
+
+/* Tabela */
+table tr td,
+table th,
+table tfoot tr { /* aparentemente, "table *" também funciona */
+    padding: 5px;
+}
+
+thead th,
+tfoot tr td {
+    background-color: #003366;
+    color: white;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #4e9ebe;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #5dc6e3;
+}
+
+table tbody tr:hover {
+    background-color: rgb(0, 140, 255);
+    color: #003366;
+}
+
+/* Formulário */
+form.profissional {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+    gap: 5px;
+    padding: 10px;
+}
+
+/* Botões */
+input[type="submit"],
+.botao_verde {
+    background-color: rgb(11, 186, 11);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.2em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="reset"],
+.botao_vermelho {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.2em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+.botao_verde:hover {
+    background-color: white;
+    color: rgb(11, 186, 11);
+    border: none;
+    border-radius: 4px;
+    padding: 0.2em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover,
+.botao_vermelho:hover {
+    background-color: white;
+    color: red;
+    border: none;
+    border-radius: 4px;
+    padding: 0.2em;
+    text-decoration: none;
+    cursor: pointer;
+}
