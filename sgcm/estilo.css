@@ -36,13 +36,14 @@ ul li a {
     background-color: #383838;
     color: white;
     gap: 10px;
+    margin: 0px;
     text-decoration: none;
     justify-content: center;
 }
 
 ul li a:hover {
     background-color: #c0c0c0;
-    color: #383838
+    color: #383838;
 }
 
 /* Tabela */
